@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 2rem;
+}
+
+/** Nav ***/
+nav {
+  display: flex;
+}
+
+img {
+  height: 5rem;
+}
+
+/** main **/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2.9rem;
+  font-weight: 500;
+}
+
+.search-input {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  text-align: center;
+  width: 30rem;
+  border-radius: 10rem;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.search-input::placeholder {
+  color: #bbb;
+}
+
+/** btn **/
+.button-display {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  width: 13rem;
+  border: none;
+  font-size: 1.6rem;
+  background: #67adee;
+  color: #fff;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 1px solid #fff;
+  letter-spacing: 1px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background: #1785ec;
+  box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+#message {
+  font-size: 1.4rem;
+  color: orangered;
+  margin-top: 2rem;
+  opacity: 0;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li img {
+  height: 60%;
+  width: 100%;
+}
+
+li a {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+li p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}

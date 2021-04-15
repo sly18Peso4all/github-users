@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Github Finder</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./images/github.png" alt="github logo" />
+    </nav>
+    <main class="container">
+      <h2>Search github users</h2>
+      <form>
+        <input type="text" placeholder="search username" class="search-input" />
+        <div class="button-display">
+          <button class="btn btn__search">search</button>
+        </div>
+        <p id="message">Username not found</p>
+      </form>
+      <div class="container" id="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
